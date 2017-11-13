@@ -57,6 +57,8 @@ gulp.task('css', function() {
       postcss([
         require('precss'),
         require('autoprefixer'),
+        require('postcss-nested'),
+        require('css-mqpacker')(),
         require('cssnano'),
         require('postcss-modules')({
           getJSON: function(cssFileName, json, outputFileName) {

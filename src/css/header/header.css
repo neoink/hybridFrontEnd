@@ -2,8 +2,14 @@ $fontStyle: 2em;
 
 .header {
   font-size: $fontStyle;
+  @media only screen and (max-width: 1200px) {
+    color: green;
+  }
   &_child {
     color: red;
+    @media only screen and (max-width: 1200px) {
+      color: blue;    
+    }
   }
   &__modifier {
     font-size: 1em;
