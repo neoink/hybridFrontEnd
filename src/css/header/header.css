@@ -1,0 +1,11 @@
+$fontStyle: 2em;
+
+.header {
+  font-size: $fontStyle;
+  &_child {
+    color: red;
+  }
+  &__modifier {
+    font-size: 1em;
+  }
+}

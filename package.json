@@ -1,0 +1,32 @@
+{
+  "name": "sandbox",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurent Goutagny (neoink)",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.9.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-wildcard": "^2.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11",
+    "postcss-modules": "^1.1.0",
+    "precss": "^2.0.0",
+    "uglifyify": "^4.0.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
